@@ -1,5 +1,5 @@
 require 'surveymonkey/version'
 
 # Top-level module
-module SurveyMonkey
+module SurveyMonkeyApi
 end

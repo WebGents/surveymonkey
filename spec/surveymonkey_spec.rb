@@ -1,5 +1,5 @@
-RSpec.describe SurveyMonkey do
+RSpec.describe SurveyMonkeyApi do
     it 'has a version number' do
-        expect(SurveyMonkey::VERSION).not_to be nil
+        expect(SurveyMonkeyApi::VERSION).not_to be nil
     end
 end
