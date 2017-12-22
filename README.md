@@ -20,6 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
+### Preparation
+
+Add this line to your application's ENV storage:
+
+```ruby
+SURVEY_MONKEY_TOKEN=your-token
+```
+
 ### Create SurveyMonkeyApi object
 
 ```ruby
