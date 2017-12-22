@@ -90,6 +90,30 @@ Request for getting list of surveys is #surveys.
   }
 ```
 
+### SurveyResponses
+
+Request for getting list of survey responses is #responses.
+
+```ruby
+  client.responses(survey_id)
+```
+
+### SurveyResponse
+
+Request for getting survey response's information is #response.
+
+```ruby
+  client.response(survey_id, response_id)
+```
+
+### SurveyResponse in details
+
+Request for getting survey response's information in details is #response_with_details.
+
+```ruby
+  client.response_with_details(survey_id, response_id)
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/kortirso/surveymonkey.

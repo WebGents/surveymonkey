@@ -1,6 +1,7 @@
 require 'httparty'
 require_relative 'client/users'
 require_relative 'client/surveys'
+require_relative 'client/responses'
 
 module SurveyMonkeyApi
     # Client class for api requests
@@ -8,6 +9,7 @@ module SurveyMonkeyApi
         include HTTParty
         include SurveyMonkeyApi::Client::Users
         include SurveyMonkeyApi::Client::Surveys
+        include SurveyMonkeyApi::Client::SurveyResponses
 
         base_uri 'https://api.surveymonkey.net'
         format :json
