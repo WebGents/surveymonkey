@@ -7,12 +7,12 @@ require 'surveymonkey/version'
 Gem::Specification.new do |spec|
     spec.name = 'survey_monkey_api'
     spec.version = SurveyMonkeyApi::VERSION
-    spec.authors = ['Anton Bogdanov']
+    spec.authors = ['JungleCoders', 'Anton Bogdanov']
     spec.email = ['kortirso@gmail.com']
 
     spec.summary = 'Gem for interaction with SurveyMonkey API'
     spec.description = 'Actions with surveys in SurveyMonkey system'
-    spec.homepage = 'https://github.com/kortirso/surveymonkey'
+    spec.homepage = 'https://github.com/WebGents/surveymonkey'
     spec.license = 'MIT'
 
     spec.files = `git ls-files -z`.split("\x0").reject do |f|
