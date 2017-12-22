@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'surveymonkey/version'
 
 Gem::Specification.new do |spec|
-    spec.name = 'surveymonkeyapi'
+    spec.name = 'survey_monkey'
     spec.version = SurveyMonkey::VERSION
     spec.authors = ['Anton Bogdanov']
     spec.email = ['kortirso@gmail.com']
