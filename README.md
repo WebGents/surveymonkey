@@ -23,7 +23,7 @@ Or install it yourself as:
 ### Create SurveyMonkeyApi object
 
 ```ruby
-  require 'survey_monkey_api'
+  require 'surveymonkey'
   client = SurveyMonkeyApi::Client.new
 ```
 
