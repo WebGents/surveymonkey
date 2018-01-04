@@ -70,6 +70,8 @@ Request for getting list of surveys is #surveys.
 ```ruby
   client.surveys
 ```
+    per_page - Count of objects rendered per page, optional
+    page - Page ID, optional
 
 #### Responces
 
@@ -89,8 +91,24 @@ Request for getting list of surveys is #surveys.
     }
   }
 ```
-    per_page - Count of objects rendered per page, optional
-    page - Page ID, optional
+
+### Survey
+
+Request for getting survey's information #survey.
+
+```ruby
+  client.survey(survey_id)
+```
+    survey_id - Survey ID, required
+
+### Survey in details
+
+Request for getting survey's information #survey_with_details.
+
+```ruby
+  client.survey_with_details(survey_id)
+```
+    survey_id - Survey ID, required
 
 ### SurveyResponses
 

@@ -9,6 +9,18 @@ module SurveyMonkeyApi
                 response = self.class.get('/v3/surveys', query: options)
                 response.parsed_response
             end
+
+            # Returns surveys's information
+            def survey(survey_id, options = {})
+                response = self.class.get("/v3/surveys/#{survey_id}", query: options)
+                response.parsed_response
+            end
+
+            # Returns surveys's information with details
+            def survey_with_details(survey_id, options = {})
+                response = self.class.get("/v3/surveys/#{survey_id}/details", query: options)
+                response.parsed_response
+            end
         end
     end
 end
